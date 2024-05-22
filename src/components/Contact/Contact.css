@@ -1,0 +1,61 @@
+ .contactDesc {
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 20px 20px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 50px;
+    margin: 40px 20px 10px;
+}
+
+#contactSection {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    max-width: 75rem;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.socialImage {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+}
+
+.name, .email, .message {
+    margin: 0.5rem;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: medium;
+    max-width: 40rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.btn {
+    margin: 10px 80px 30px;
+    background-color: black;
+    color: beige;
+    background: #212121;
+
+}
+
+/*  --- media query --- */
+
+@media (max-width: 700px){
+    .contactSection {
+        display: block;
+    }
+}
