@@ -54,3 +54,18 @@
     font-size: 14px;
     color: #666;
 }
+
+
+.linkedin-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #0077b5;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.linkedin-link:hover {
+    background-color: #005582;
+}

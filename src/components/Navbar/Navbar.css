@@ -86,9 +86,11 @@ nav ul li {
         font-size: 15px; /* Adjust the font size for readability */
     }
 
-    .contact-us {
+    .btn {
         font-size: 10px;
         padding: 10px 20px;
+        margin-left: 0px;
+        
     }
 
     .icon {

@@ -55,7 +55,23 @@
 /*  --- media query --- */
 
 @media (max-width: 700px){
-    .contactSection {
+    #contactSection {
         display: block;
+        margin-left: none;
+        height: 50vh;
+        width: 50vh;
     }
+    .title {
+        font-size: 25px;
+        font-weight: 500;
+        margin: 10px;
+    }
+    .contactDesc{
+        margin: 10px;
+        font-size: 15px;
+    }
+    .inputs{
+        margin: 10px;
+    }
+
 }

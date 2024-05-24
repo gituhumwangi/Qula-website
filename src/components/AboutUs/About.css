@@ -17,9 +17,11 @@
 }
 
 .about-img {
-    width: 400px;
-    border-radius: 10px;
-    height: 500px;
+    width: 100%; /* Make the width responsive */
+    max-width: 300px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Smooth corners */
+    margin-left: 0; /* No need to use px if the value is 0 */
 }
 
 .about h3 {
@@ -41,6 +43,9 @@
     margin-bottom: 10px;
     line-height: 2.1;
 }
+.about h2 {
+    margin: 10px 10px;
+}
 
 /* --- media query --- */
 
@@ -61,14 +66,11 @@
         flex-basis: 100%;
     }
     .about-img {
-        width: 500px;
-        border-radius: 10px;
-        height: 600px
+        height: 400px; /* Fixed height for larger screens */
     }
-    .about h2 {
-        margin: 10px 10px;
     }
-}
+    
+
 
 
 
