@@ -54,12 +54,13 @@
 
 /*  --- media query --- */
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     #contactSection {
         display: block;
         margin-left: none;
         height: 50vh;
         width: 50vh;
+        justify-content: flex-start;
     }
     .title {
         font-size: 25px;
@@ -72,6 +73,6 @@
     }
     .inputs{
         margin: 10px;
+        width: auto;
     }
-
 }
