@@ -37,7 +37,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='about' smooth={true} offset={-135} duration={500} onClick={toggleMenu}>
+          <Link to='about' smooth={true} offset={-120} duration={500} onClick={toggleMenu}>
             About Us
           </Link>
         </li>
