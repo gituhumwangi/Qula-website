@@ -25,6 +25,7 @@ const Contact = () => {
 
     return (
         <section id='contactSection'>
+          <div id = 'left-sided'>
             <h2 className='title'>Contact Us.</h2>
             <span className='contactDesc'>Fill the form below if you want to reach us.</span>
             <form className='inputs' ref={form} onSubmit={sendEmail}>
@@ -47,6 +48,8 @@ const Contact = () => {
                 <img src='https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png'
                     alt='inkedIn' className='socialImage' />
             </div>
+            </div>
+            
 
         </section>
     )

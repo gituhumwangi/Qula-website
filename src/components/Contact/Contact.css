@@ -44,10 +44,10 @@
     background: rgb(50, 50, 50);
 }
 
-.btn {
+.btn{
     margin: 10px 80px 30px;
     background-color: black;
-    color: beige;
+    color: blue;
     background: #212121;
 
 }
@@ -57,22 +57,45 @@
 @media (max-width: 500px){
     #contactSection {
         display: block;
-        margin-left: none;
-        height: 50vh;
-        width: 50vh;
+        margin-left: 0;  /* Changed from 'none' to '0' */
+        height: auto;  /* Adjust height to fit content */
+        width: 100%;   /* Full width for small screens */
         justify-content: flex-start;
+        max-width: 100%; /* Ensure it uses the full width */
+        padding: 0 10px; /* Add some padding for better layout */
     }
     .title {
         font-size: 25px;
         font-weight: 500;
         margin: 10px;
     }
-    .contactDesc{
+    .contactDesc {
         margin: 10px;
         font-size: 15px;
     }
-    .inputs{
+    .inputs {
         margin: 10px;
         width: auto;
+    }
+    .socialImage {
+        width: 2.5rem;  /* Smaller icons for small screens */
+        height: 2.5rem;
+    }
+}
+
+@media (max-width: 400px){
+    #contactSection {
+        display: block; /* Use block display to stack elements vertically */
+        margin-left: 0;
+        height: auto;
+        width: 100%;
+        justify-content: flex-start;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    #left-sided {
+        float: left;
+        width: 100%;
     }
 }
