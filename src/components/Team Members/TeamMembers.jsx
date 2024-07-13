@@ -1,5 +1,5 @@
 import React from 'react'
-import Dennis from '/home/dennis/personal-projects/cfcana-page/src/assets/Team-photos/Dennis.jpg'
+import Dennis from '@/assets/Team-photos/Dennis.jpg';
 import Iyvone from '/home/dennis/personal-projects/cfcana-page/src/assets/Team-photos/Iyvone.jpg'
 import Joy from '/home/dennis/personal-projects/cfcana-page/src/assets/Team-photos/Joy.jpg'
 import Muturi from '/home/dennis/personal-projects/cfcana-page/src/assets/Team-photos/Muturi.jpg'

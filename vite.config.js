@@ -1,8 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import path from 'path';
 
-// Replace 'your-repo-name' with the actual repository name
 export default defineConfig({
   plugins: [react()],
-  base: '/Qula-website/'
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
+  },
+  base: '/Qula-website/',
 });
