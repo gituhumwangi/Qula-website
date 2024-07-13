@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import icon from '/home/dennis/personal-projects/cfcana-page/src/assets/Nutrition Images/icon.png';
+import icon from '/home/dennis/personal-projects/cfcana-page/dist/assets/icon.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
