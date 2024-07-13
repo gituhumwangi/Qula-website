@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import icon from '/home/dennis/personal-projects/cfcana-page/dist/assets/icon.png';
+//import icon from '/home/dennis/personal-projects/cfcana-page/dist/assets/icon.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -52,7 +52,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <img src={icon} alt='menu-icon' className='icon' onClick={toggleMenu} />
+      {/* <img src={icon} alt='menu-icon' className='icon' onClick={toggleMenu} /> */}
     </nav>
   );
 };
