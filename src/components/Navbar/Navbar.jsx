@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 //import icon from '/home/dennis/personal-projects/cfcana-page/dist/assets/icon.png';
 import { Link } from 'react-scroll';
+import dflogo from '@/assets/Nutrition Images/dflogo.jpeg'
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -26,8 +27,8 @@ const Navbar = () => {
   return (
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
       <img
-        src='https://tse2.mm.bing.net/th/id/OIG2.JGEWq7GazMT8Nndg50Ke?pid=ImgGn'
-        alt='Qula Logo'
+        src={dflogo}
+        alt='DineFinder Logo'
         className='logo'
       />
       <ul className={`nav-links ${mobileMenu ? 'show-mobile-menu' : 'hide-mobile-menu'}`}>
